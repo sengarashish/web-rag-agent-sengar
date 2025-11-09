@@ -48,3 +48,5 @@ Type your questions and press Enter. Type 'exit' or 'quit' to stop.
 - If you get rate limit errors, increase `REQUEST_DELAY` in config
 - Make sure API key is valid
 - Check URLs are accessible
+- If using free API tier on google, dont use url with lot of content to avoid quota issues.
+- Sign up for free gemini api key at: https://aistudio.google.com/api-keys
