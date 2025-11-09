@@ -7,7 +7,7 @@ from langchain.schema import Document
 class VectorStoreManager:
     def __init__(self, api_key: str, chunk_size: int = 1000, chunk_overlap: int = 200):
         self.embeddings = GoogleGenerativeAIEmbeddings(
-            model="models/embedding-001",
+            model="models/gemini-embedding-001",
             google_api_key=api_key
         )
         self.chunk_size = chunk_size
